@@ -1,5 +1,5 @@
 # LimitlessLED DevAPI
-As limitlessled.com/dev is now down, but has been continuously linked and used as a resource for Milight/LimitlessLED application development. 
+http://limitlessled.com/dev is now down, but has been continuously linked and used as a resource for Milight/LimitlessLED application development. 
 
 Finding an archive of the page is pretty difficult, and this repo aims to save people a lot of time and act as a permenant backup of the page. 
 
