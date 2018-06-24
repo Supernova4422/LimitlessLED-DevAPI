@@ -1,0 +1,879 @@
+<html dir="ltr" class="no-js" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- base href="http://www.limitlessled.com/dev/" -->
+<style type="text/css">
+body{background-color:white;color:black;}
+</style>
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+	<meta charset="UTF-8">
+
+	<title>LimitlessLED Technical Developer Opensource API | LimitlessLED</title>
+
+	
+
+	<meta name="description" content="&lt;p&gt;WiFi Color E27 LED light bulbs for your iPhone or android&lt;/p&gt;">
+
+	<meta name="keywords" content="&lt;p&gt;e27 e26 b22 lifx hue greenwave wifi led light bulbs iphone android&lt;/p&gt;">
+
+	<meta name="author" content="Limitless Designs">
+
+	
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+ 
+
+
+<meta name="generator" content="WordPress 3.4.2">
+
+
+		 
+
+
+
+
+
+<meta name="generator" content="WooCommerce 1.6.6">
+
+
+	
+	
+
+	
+
+		
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+
+<style type="text/css">span.gbcns{font-weight:600}span.gbcnst00{color:black;background-color:#ffff66}span.gbcnst01{color:black;background-color:#a0ffff}span.gbcnst02{color:black;background-color:#99ff99}span.gbcnst03{color:black;background-color:#ff9999}span.gbcnst04{color:black;background-color:#ff66ff}span.gbcnst05{color:white;background-color:#880000}span.gbcnst06{color:white;background-color:#00aa00}span.gbcnst07{color:white;background-color:#886800}span.gbcnst08{color:white;background-color:#004699}span.gbcnst09{color:white;background-color:#990099}span.gbcnst00x{color:white;background-color:black;border:2px solid #ffff66}span.gbcnst01x{color:white;background-color:black;border:2px solid #a0ffff}span.gbcnst02x{color:white;background-color:black;border:2px solid #99ff99}span.gbcnst03x{color:white;background-color:black;border:2px solid #ff9999}span.gbcnst04x{color:white;background-color:black;border:2px solid #ff66ff}span.gbcnst05x{color:white;background-color:black;border:2px solid #880000}span.gbcnst06x{color:white;background-color:black;border:2px solid #00aa00}span.gbcnst07x{color:white;background-color:black;border:2px solid #886800}span.gbcnst08x{color:white;background-color:black;border:2px solid #004699}span.gbcnst09x{color:white;background-color:black;border:2px solid #990099}</style></head>
+
+
+
+<body class="page page-id-560 page-template-default   theme-spark-responsivehtml5wordpresstheme">
+
+
+
+	<div id="main" role="main">
+
+	
+
+
+
+	<div class="container">
+		
+
+		
+			<div class="breadcrumb-list"><a href="http://www.limitlessled.com/">Home</a> › <span class="gbcnst gbcnst02">LimitlessLED</span> Technical Developer Opensource API</div>        
+            <div id="post-560" class="post-560 page type-page status-publish hentry">
+                <h1><span class="gbcnst gbcnst02">LimitlessLED</span> Technical Developer Opensource API</h1>
+ 
+                 
+                
+                <div class="post-entry">
+                    <h3>LAST UPDATED: 22nd November 2017</h3>
+<p></p>
+<h1>Wifi bridge v6 Apps that support RGBW and RGBW/WW/CW/CCT bulbs</h1>
+<p>August 2017: Home Assistant for v6 bridges RGBWW  https://home-assistant.io/components/light.<span class="gbcnst gbcnst02">limitlessled</span>/<br>
+June 2017: <a href="https://play.google.com/store/apps/details?id=com.epocapp.milightcontroller"><span class="gbcnst gbcnst03">com</span>.epocapp.milightcontroller</a> by Epocapp applications (please donate to Epocapp if you enjoy their apps) <a href="http://www.epocapp.eu/"><span class="gbcnst gbcnst00">http</span>://<span class="gbcnst gbcnst01">www</span>.epocapp.eu</a><br>
+June 2017: <a href="https://www.youtube.com/channel/UCBHTarafAl8d2jgzDvX3NAg">EpoCapp youtube video https://<span class="gbcnst gbcnst01">www</span>.youtube.<span class="gbcnst gbcnst03">com</span>/channel/UCBHTarafAl8d2jgzDvX3NAg</a><br>
+February 2017: PHP based on API V6 created by Wilfleaji, you can check it out there <a href="https://github.com/winosaure/MilightAPI">https://github.<span class="gbcnst gbcnst03">com</span>/winosaure/MilightAPI</a><br>
+February 2017: Wilfleaji made a small tutorial for those I may need some help : <a href="http://stackoverflow.com/questions/42535502/problems-with-sending-udp-packets-milight-limitlessled/"><span class="gbcnst gbcnst00">http</span>://stackoverflow.<span class="gbcnst gbcnst03">com</span>/questions/42535502/problems-with-sending-udp-packets-milight-<span class="gbcnst gbcnst02">limitlessled</span>/</a><br>
+January 2017: Domoticz supports wifi bridge v6 <a href="https://github.com/domoticz/domoticz">https://github.<span class="gbcnst gbcnst03">com</span>/domoticz/domoticz</a><br>
+the sample code for wifi bridge v6 is here: <a href="https://github.com/domoticz/domoticz/blob/master/hardware/Limitless.cpp">https://github.<span class="gbcnst gbcnst03">com</span>/domoticz/domoticz/blob/master/hardware/Limitless.cpp</a><br>
+March 2017: home-assistant supports bridge v6: <a href="https://home-assistant.io/">https://home-assistant.io/ </a></p>
+<p>
+<span class="gbcnst gbcnst02">LimitlessLED</span> Wifi Bridge Windows 10 and Windows7 App supports v6 bridge: <a href="http://www.limitlessled.com/download/LimitlessLEDv6.zip">Download LimitlessLEDv6.zip Here</a></p>
+<h1><span class="gbcnst gbcnst02">LimitlessLED</span> Wifi Bridge v6.0 Working Program code</h1>
+<div class="container">
+<div class="header">VB.NET</div>
+<div class="content">
+
+
+    Imports System.Net
+    Imports System.Net.Sockets
+    Imports System.Text.Encoding
+
+    Private LimitlessLEDWifiBridgeSessionID1 As Byte = 0
+    Private LimitlessLEDWifiBridgeSessionID2 As Byte = 0
+    Private SequenceNumber As Byte = 0
+
+    'Usage:  SendLightCommand(txtV6cmd01.Text, txtIP2.Text, 
+txtCommandUDPPort.Text, txtZone.Text, "Waiting for response...", 500, 
+"", 10, True)
+
+    Private Sub SendLightCommand(ByVal v6CommandString As String, ByVal 
+sendIPAddress As String, ByVal sPortNumber As String, ByVal sZone As 
+String, ByVal WaitText As String, ByVal ReceiveTimeout As Integer, ByVal
+ ValidResponse As String, ByVal Retries As Integer, ByVal 
+WaitForResponse As Boolean)
+
+            Dim iPortNum As Integer = CInt(sPortNumber)
+
+            If udpAdmin Is Nothing Then
+                udpAdmin = New UdpClient(iPortNum)
+                udpAdmin.EnableBroadcast = True
+                udpAdmin.DontFragment = True
+            Else
+                Throw New Exception("udpAdmin was already initialised")
+            End If
+
+            Dim sendEndPoint = New 
+IPEndPoint(IPAddress.Parse(sendIPAddress), iPortNum)
+            Dim listenEndPoint = New 
+IPEndPoint(IPAddress.Parse(sendIPAddress), iPortNum)
+            Dim StartSessionCommandString As String = "20 00 00 00 16 02
+ 62 3A D5 ED A3 01 AE 08 2D 46 61 41 A7 F6 DC AF D3 E6 00 00 1E"
+            Dim b As Byte() = StringToBytes(StartSessionCommandString)
+            udpAdmin.Send(b, b.Length, sendEndPoint)
+            udpAdmin.Client.SetSocketOption(SocketOptionLevel.Socket, 
+SocketOptionName.ReceiveTimeout, 1000)
+
+            Try
+                  Do While iFoundWifiBridges &lt; 
+iLookForNumberOfWifiBridges
+
+
+                    receiveBytes = udpAdmin.Receive(listenEndPoint) 
+'wait here until a UDP packet has been received. TIMEout if no response 
+received.
+
+                    If receiveBytes.Length &gt; 0 AndAlso 
+receiveBytes(0) = (b(0) + 8) AndAlso receiveBytes.Length = 
+(receiveBytes(4) + 5) Then
+                        'if the first byte sent on the command is 0x10 
+then expect response of 0x18 (+8)
+                        'if the first byte sent on the command is 0x20 
+then expect response of 0x28 (+8)
+
+                        UpdateCommandsResponseMessage("Received: " &amp;
+ ByteArrayToString(receiveBytes)) 'ByteArrayToHexString(receiveBytes))
+                       ' UpdateCommandsResponseMessage("Received bytes "
+ &amp; CUInt(receiveBytes(4)))
+
+                        If Not chkFreezeSessionID.Checked Then
+                            LimitlessLEDWifiBridgeSessionID1 = 
+receiveBytes(19) '20th response byte
+                        End If
+                        
+UpdateCommandsResponseMessage("LimitlessLEDWifiBridgeSessionID1 is " 
+&amp; ByteToHexString(LimitlessLEDWifiBridgeSessionID1))
+
+                        If Not chkFreezeSessionID.Checked Then
+                            LimitlessLEDWifiBridgeSessionID2 = 
+receiveBytes(20) '21st response byte
+                        End If
+                        
+UpdateCommandsResponseMessage("LimitlessLEDWifiBridgeSessionID2 is " 
+&amp; ByteToHexString(LimitlessLEDWifiBridgeSessionID2))
+
+                        'could be broadcast, so we don't know how many 
+bridges might respond
+                        UpdateCommandsResponseMessage("IP Address is " 
+&amp; listenEndPoint.Address.ToString())
+
+                        'The mac address is returned from the wifi 
+bridge.
+                        Dim macAddressFormatted As String = 
+ByteToHexString(receiveBytes(8)) &amp; ":" &amp; 
+ByteToHexString(receiveBytes(9)) &amp; ":" &amp; 
+ByteToHexString(receiveBytes(10)) &amp; ":" &amp; 
+ByteToHexString(receiveBytes(11)) &amp; ":" &amp; 
+ByteToHexString(receiveBytes(12)) &amp; ":" &amp; 
+ByteToHexString(receiveBytes(13))
+                        Dim macAddressRaw As String = 
+macAddressFormatted.Replace(":", "")
+                        UpdateCommandsResponseMessage("MAC Address is " 
+&amp; macAddressFormatted)
+
+
+SendCommand:
+                        '80 00 00 00 11(length hex) (17 01)(WB1WB2) 00 
+SN 00 (31 00 00 08 04 01 00 00 00)(cmd) 01(zone) 00 3F(chksum) response:
+ (88 00 00 00 03 00 SN 00) 
+                        Dim sendFullcommand As String = "80 00 00 00 04 
+05 06 00 08 00 " &amp; v6CommandString &amp; " 19 00 21"
+                        Dim cmd As Byte() = 
+StringToBytes(sendFullcommand)
+                        cmd(4) = cmd.Length - 5 'set packet length 
+(excluding 5 packet header bytes)
+                        cmd(5) = LimitlessLEDWifiBridgeSessionID1 
+'session byte 1
+                        cmd(6) = LimitlessLEDWifiBridgeSessionID2 
+'session byte 2
+
+                        If Not chkFreezeSequenceNumber.Checked Then
+                            If SequenceNumber = 255 Then
+                                SequenceNumber = 0
+                            Else
+                                SequenceNumber = SequenceNumber + 1
+                            End If
+                        End If
+
+                        cmd(8) = SequenceNumber
+                        cmd(19) = CByte(sZone)
+                        'Calculate Checksum:
+                        Dim iChecksum As Integer
+                        Dim bChecksum As Byte
+                        For i As Integer = 10 To 20 '11 bytes
+                            iChecksum += cmd(i)
+                        Next
+                        bChecksum = CByte(iChecksum And &amp;HFF)
+                        cmd(21) = bChecksum
+
+                        UpdateCommandsResponseMessage("Sequence Number 
+is " &amp; ByteToHexString(SequenceNumber))
+                        UpdateCommandsResponseMessage("Checksum is " 
+&amp; ByteToHexString(bChecksum))
+
+                        udpAdmin.Send(cmd, cmd.Length, sendEndPoint)
+                        'udpAdmin.Send(cmd, cmd.Length, broadcastEP)
+
+                        UpdateCommandsResponseMessage("Sent: " &amp; 
+ByteArrayToString(cmd))
+
+                        Do While iFoundWifiBridges &lt; 
+iLookForNumberOfWifiBridges
+                            receiveBytes = 
+udpAdmin.Receive(listenEndPoint) 'wait here until a UDP packet has been 
+received. TIMEout if no response received.
+
+                            If receiveBytes.Length &gt; 0 AndAlso 
+receiveBytes(0) = (cmd(0) + 8) AndAlso receiveBytes.Length = 
+(receiveBytes(4) + 5) Then 'check header byte 0x88 and length byte 0x03 
+is correct (including the 5 packet header bytes that aren't counted)
+                                UpdateCommandsResponseMessage("Command 
+SUCCESSFUL.")
+                                UpdateCommandsResponseMessage("Received:
+ " &amp; ByteArrayToString(receiveBytes))
+                                'response should be: 88 00 00 00 03 00 
+SN 00
+
+                                Exit Do
+                            End If
+                        Loop
+
+                        Exit Do
+                    End If
+                Loop
+
+         Catch ex As System.Net.Sockets.SocketException
+
+            Dim excp = ex.SocketErrorCode
+
+            If excp = SocketError.TimedOut Then
+                'TODO: retry if there is a timeout, chances are it will 
+work the second time on UDP
+                UpdateCommandsResponseMessage("Timeout waiting for Wifi 
+Bridge Response.")
+            Else
+                UpdateCommandsResponseMessage(ex.Message)
+            End If
+
+        Catch ex As Exception
+
+            UpdateCommandsResponseMessage(ex.Message)
+        Finally
+
+            Try
+                udpAdmin.Client.Shutdown(SocketShutdown.Receive)
+            Catch ex As Exception
+                
+'UpdateStatusMessage("udpAdmin.Client.Shutdown(SocketShutdown.Receive) 
+exception." &amp; ex.Message)
+            End Try
+            Try
+                udpAdmin.Client.Close()
+            Catch ex As Exception
+                'UpdateStatusMessage("udpAdmin.Client.Close() 
+exception." &amp; ex.Message)
+            End Try
+            Try
+                udpAdmin.Close()
+            Catch ex As Exception
+                'UpdateStatusMessage("udpAdmin.Close() exception." &amp;
+ ex.Message)
+            End Try
+            Try
+                udpAdmin = Nothing
+            Catch ex As Exception
+                ' UpdateStatusMessage("udpAdmin = Nothing exception." 
+&amp; ex.Message)
+            End Try
+
+        End Try
+
+    End Sub
+
+    Public Shared Function StringToBytes(ByVal hex As String) As Byte()
+        hex = hex.Replace(" ", "")
+
+        If hex.Length Mod 2 = 1 Then
+            Throw New Exception("The hex string cannot have an odd 
+number of digits")
+        End If
+
+        Dim arr As Byte() = New Byte((hex.Length &gt;&gt; 1) - 1) {}
+
+        For i As Integer = 0 To (hex.Length &gt;&gt; 1) - 1
+            arr(i) = CByte((GetHexVal(hex(i &lt;&lt; 1)) &lt;&lt; 4) + 
+(GetHexVal(hex((i &lt;&lt; 1) + 1))))
+        Next
+
+        Return arr
+    End Function
+
+    Public Shared Function GetHexVal(ByVal hex As Char) As Integer
+        Dim val As Integer = AscW(hex)
+        'For uppercase A-F letters:
+        'Return val - (If(val &lt; 58, 48, 55))
+        'For lowercase a-f letters:
+        'Return val - (If(val &lt; 58, 48, 87))
+        'Or the two combined, but a bit slower:
+        Return val - (If(val &lt; 58, 48, (If(val &lt; 97, 55, 87))))
+    End Function
+
+    Private Sub UpdateStatusMessage(ByVal message As String)
+        txtLog.Text &amp;= message.Replace(vbCr, "\r").Replace(vbLf, 
+"\n") &amp; vbCrLf
+        '\r = Cr = decimal13 = 0x0D = Carriage Return  
+        '\n = Lf = decimal10 = 0x0A = Linefeed
+        txtLog.SelectionStart = txtLog.Text.Length
+        txtLog.ScrollToCaret()
+        Application.DoEvents()
+    End Sub
+ 
+<p>
+</p></div>
+</div>
+<h1><span class="gbcnst gbcnst02">LimitlessLED</span> Wifi Bridge v6.0 Sample code</h1>
+<div class="container">
+<div class="header">NodeJS</div>
+<div class="content">
+
+'use strict';
+var dgram = require('dgram');
+
+var debug=false;
+
+var DEFAULT_HOST ;
+var DEFAULT_PORT ;
+var DEFAULT_REPEATS=3 ;
+
+var PREAMPLE = [0x80,0x00,0x00,0x00,0x11]
+
+var FILLER = 0x00
+
+var CMDS={
+ ON: [0x31,0,0,0x08,0x04,0x01,0,0,0],
+ OFF: [0x31,0,0,0x08,0x04,0x02,0,0,0],
+ NIGHT: [0x31,0,0,0x08,0x04,0x05,0,0,0],
+ WHITEON: [0x31,0,0,0x08,0x05,0x64,0,0,0],
+ REG: [0x33,0,0,0,0,0,0,0,0,0],
+ BON: [0x31,0x00,0x00,0x00,0x03,0x03,0x00,0x00,0x00],
+ BOFF:[0x31,0x00,0x00,0x00,0x03,0x04,0x00,0x00,0x00],
+ BWHITE:[0x31 ,0x00 ,0x00 ,0x00 ,0x03 ,0x05 ,0x00 ,0x00 ,0x00],
+};
+var socket;
+
+var zoneCtlRGBWFactory=function(zoneID){
+  var color=0x7A;
+	var brightness=0x32;
+  var saturation=0x32;
+  var colorTemp=0x4B;
+  var zone=zoneID;
+  if(zone &gt; 4 || zone  4 || zone &lt; b ? 6 : 0); break;
+      case g: h = (b - r) / d + 2; break;
+      case b: h = (r - g) / d + 4; break;
+    }
+
+    h /= 6;
+  }
+  return [ Math.floor(h*0xFF), Math.floor(s*100), Math.floor(v*100) ];
+}
+
+
+
+var buildFrame = function(WB,WB2,CMD,ZONE){
+	var out=[];
+	//console.log("#"+WB.toString('hex')+"-"+CMD.toString("hex"));
+	if (debug) console.log("WB: "+ WB.toString("hex")+ " 
+"+WB2.toString("hex") +" CMD: "+CMD.toString("hex"))
+	out=out.concat(PREAMPLE,WB,WB2,0x00,seqNum,FILLER,CMD,ZONE)
+	var chkSum=calcCheckSum(out);
+	out =	out.concat(chkSum);
+	if (debug) console.log("out: "+ (new Buffer(out)).toString('hex'))
+	//console.log(JSON.stringify(out));
+	//console.log("#"+out.toString('hex'));
+	seqNum=(seqNum+1)%256;
+	return new Buffer(out);
+}
+
+var sendFrame=function(payload){
+	if(debug) console.log("Sending: " + payload.toString('hex'));
+	
+socket.send(payload,0,payload.length,DEFAULT_PORT,DEFAULT_HOST,function(){});
+}
+
+var
+ sendKeepAlive=function(){
+	var out=new Buffer([0xD0,0x00,0x00,0x00,0x02,bridgeID,bridgeID2]);
+	sendFrame(out);
+}
+
+var calcCheckSum=function(aFrame){
+
+  var add=function(a,b){
+	   return a+b;
+  };
+
+  var sub = aFrame.slice(Math.max(aFrame.length - 11, 0)) ;
+  var val=sub.reduce(add,0)
+  var val1=Math.floor(val / 0xff)
+  var val2=val % 0xff
+  return [val1, val2]
+
+}
+
+var _func={};
+
+_func['2800000011']=function(msg){
+  //response to initiate
+	var unknown1=msg.slice(5,7);
+	var mac=msg.slice(7,13);
+	var fixed=msg.slice(13,15);
+	var unknown2=msg.slice(15,19);
+	var counter=msg.slice(19,20);
+	var counter2=msg.slice(20,21);
+	var padding=msg.slice(20);
+ if (debug) { 
+	console.log("0:" +msg.toString('hex'));
+	console.log("1:" +unknown1.toString('hex'));
+	console.log("2:" +mac.toString('hex'));
+	console.log("2a:" +fixed.toString('hex'));
+	console.log("3:" +unknown2.toString('hex'));
+	console.log("4:" +counter.toString('hex'));
+	console.log("5:" +padding.toString('hex'));
+  }
+	bridgeID=new Uint8Array(counter);
+	bridgeID2=new Uint8Array(counter2);
+//80:00:00:00:11:c1:01:00:0b:00:33:00:00:00:00:00:00:00:00:00:00:33
+
+  //complete initiation
+	if (debug) console.log("BridgeID: "+ bridgeID.toString("hex"))
+	if (debug) console.log("BridgeID2: "+ bridgeID2.toString("hex"))
+	var 
+nFrame=buildFrame(bridgeID,bridgeID2,[0x33,0,0,0,0,0,0,0,0,0],0x00);
+	sendFrame(nFrame);
+
+  //start keepalive
+	setInterval(sendKeepAlive,10000);
+};
+
+_func['8800000003']=function(msg){
+	//ERROR - Confirmation?
+	var code= msg.slice(0,5);
+	var unknown1 = msg.slice(5,8);
+	if (debug) console.log("0:" +msg.toString('hex'));
+	if (debug) console.log("1:" +unknown1.toString('hex'));
+	if (debug) console.log("ID:"+bridgeID.toString('hex'));
+}
+
+_func['d800000007']=function(){
+	//keepalive response
+}
+var socket=dgram.createSocket({type:'udp4',reuseAddr:true});
+
+socket.on("message", (msg, rinfo) =&gt; {
+  //console.log('Received %d bytes from %s:%d\n',
+  //            msg.length, rinfo.address, rinfo.port);
+  var hmsg=msg.toString('hex');
+  var resp=(msg.toString('hex').substring(0,10));
+  if (_func[resp]) {
+    _func[resp](msg)
+  } else {
+    console.log("Unknown code");
+    console.log(hmsg);
+  }
+});
+
+var initiate=function(host,port){
+	
+//socket.send(payload,0,payload.length,DEFAULT_PORT,DEFAULT_HOST,function(a,b){});
+
+	DEFAULT_HOST=host;
+	DEFAULT_PORT=port;
+  //socket.bind();
+  //socket.bind(DEFAULT_PORT);
+  var payload=new 
+Buffer([0x20,0x00,0x00,0x00,0x16,0x02,0x62,0x3a,0xd5,0xed,0xa3,0x01,0xae,0x08,0x2d,0x46,0x61,0x41,0xa7,0xf6,0xdc,0xaf,0xfe,0xf7,0x00,0x00,0x1e]);
+if
+ (debug) console.log(payload.toString('hex'));
+	sendFrame(payload);
+};
+
+
+
+
+    exports.initiate= initiate;
+    exports.baseCtlFactory= baseCtlFactory;
+    exports.zoneCtlRGBWFactory= zoneCtlRGBWFactory;
+    exports.zoneCtlRGBWWFactory= zoneCtlRGBWWFactory;
+    exports.sendCmd= sendCmd;
+    
+<p>
+    </p></div>
+</div>
+<h1><span class="gbcnst gbcnst02">LimitlessLED</span> Wifi Bridge v6.0</h1>
+<p></p>
+<h2>Section 1. Manual Web Browser Wifi Bridge v6 Setup.</h2>
+<ul>
+<li>Connect Phone to Milight AccessPoint
+</li><li>Use Phone Web Browser to <span class="gbcnst gbcnst00">http</span>://10.10.100.254
+</li><li>Username: admin
+</li><li>Password: admin
+</li><li>Work Mode: change to STA mode, press Save
+</li><li>STA Setting: Scan for your Home Wifi Router
+</li><li>Encryption Method: WPA2PSK
+</li><li>Encryption Algorithm: AES
+</li><li>Password:  enter your home wifi router password  here.
+</li><li>Obtain an IP address automatically:  Enable
+</li><li>Restart: Click Ok
+</li><li>Now put your phone back on your home wifi network, and open the
+ app, it will see the wifi bridge, assuming you entered your wifi 
+password correctly a few steps back. :)
+</li></ul>
+<h2>Section 2. Searching for <span class="gbcnst gbcnst02">LimitlessLED</span> v6 Bridge/s on the LAN.</h2>
+<ul>
+<li>We have a Windows App for this <a href="http://www.limitlessled.com/download/LimitlessLEDv6.zip">called <span class="gbcnst gbcnst02">LimitlessLED</span> Admin tool v5/v6</a>
+</li><li>If you are building your own Program, use the following...
+</li><li>UDP.IP = "255.255.255.255"; // IP.Broadcast
+</li><li>UDP.PORT = 48899;
+</li><li>UDP.SendBytes(UTF8.GetBytes("HF-A11ASSISTHREAD")); // this is 
+the broadcast string for the v6 Bridge (for v5 bridges use the string 
+"Link_Wi-Fi")
+</li><li>receiveBytes = UDP.Receive();
+</li><li>response = UTF8.GetString(receiveBytes);
+</li><li>//each wifi bridge responds with one response at time. so call receive again until 1 second is up.
+</li><li>// returns a string containing: IP address of the wifi bridge, 
+the unique MAC address, and the name(which is always the same for v6, 
+and the name is empty for v5 bridges) there is always two commas present
+ regardless of v5 or v6 wifi bridge.
+</li><li>//  10.1.1.27,ACCF23F57AD4,HF-LPB100
+</li><li>//  10.1.1.31,ACCF23F57D80,HF-LPB100
+</li></ul>
+<h2>Section 3. Wifi Bridge v6 Protocol - All values are in Hex</h2>
+<ul>
+<li>all values below are in hex, 0xFF  means 255 in decimal aka FF in hex, aka 1 byte of FF, aka 8 bits of 11111111.
+</li><li>UDP.IP = "255.255.255.255"; (or direct Wifi Bridge IP Address)
+</li><li>UDP.PORT = 5987; //(decimal integer 5987)
+</li><li>UDP.SEND (hex bytes, see below)
+</li><li>
+</li><li>SN = Sequential Byte
+</li><li>Sequential byte just helps with keeping commands in the correct
+ order, and it helps to ignore duplicate packets already received. 
+increment this byte for each new command by 1.
+</li><li>
+</li><li>WB1 = <span class="gbcnst gbcnst02">LimitlessLED</span> Wifi Bridge Session ID1
+</li><li>WB2 = <span class="gbcnst gbcnst02">LimitlessLED</span> Wifi Bridge Session ID2
+</li><li> to get the WB1 and WB2 send this command
+</li><li>UDP.SEND hex bytes: 20 00 00 00 16 02 62 3A D5 ED A3 01 AE 08 
+2D 46 61 41 A7 F6 DC AF (D3 E6) 00 00 1E  &lt;-- Send this to the ip 
+address of the wifi bridge v6
+</li><li>UDP.Response: 28 00 00 00 11 00 02 (AC CF 23 F5 7A D4)(mac) 69 
+F0 3C 23 00 01 (05 00)(&lt;--WifiBridgeSessionID1 &amp; 
+WifiBridgeSessionID2) 00 &lt;-- (example response 1)
+</li><li>UDP.Response: 28 00 00 00 11 00 02 (AC CF 23 F5 7A D4)(mac) 69 
+F0 3C 23 00 01 (17 01)(&lt;--WifiBridgeSessionID1 &amp; 
+WifiBridgeSessionID2) 00 &lt;-- (example response 2)
+</li><li>UDP.Response: 28 00 00 00 11 00 02 (AC CF 23 F5 7A D4)(mac) 69 
+F0 3C 23 00 01 (F2 00)(&lt;--WifiBridgeSessionID1 &amp; 
+WifiBridgeSessionID2) 00 &lt;-- (example response 3)
+</li><li>WB1 = <span class="gbcnst gbcnst02">LimitlessLED</span> Wifi Bridge Session ID1  = response[19] (20th byte of response above)
+</li><li>WB2 = <span class="gbcnst gbcnst02">LimitlessLED</span> Wifi Bridge Session ID2  = response[20] (21st byte of response above)
+</li><li>
+</li><li><b>RGBW/WW/CW Commands</b>
+</li><li>UDP Hex Send Format: 80 00 00 00 11 {WifiBridgeSessionID1} 
+{WifiBridgeSessionID2} 00 {SequenceNumber} 00 {COMMAND} {ZONE NUMBER} 00
+ {Checksum}
+</li><li>UDP Hex Response: 88 00 00 00 03 00 {SequenceNumber} 00
+</li><li>
+</li><li><b>List of {COMMAND}s:</b>
+</li><li>format of {command} 9 byte packet = 0x31 {PasswordByte1 default
+ 00} {PasswordByte2 default 00} {remoteStyle 08 for RGBW/WW/CW or 00 for
+ bridge lamp} {LightCommandByte1} {LightCommandByte2} 0x00 0x00 0x00 
+{Zone1-4 0=All} 0x00 {Checksum}
+</li><li>31 00 00 08 04 01 00 00 00 = Light ON
+</li><li>31 00 00 08 04 02 00 00 00 = Light OFF
+</li><li>31 00 00 08 04 05 00 00 00 = Night Light ON
+</li><li>31 00 00 08 05 64 00 00 00 = White Light ON (Color RGB OFF)
+</li><li>31 00 00 08 01 BA BA BA BA = Set Color to Blue (0xBA) (0xFF = 
+Red, D9 = Lavender, BA = Blue, 85 = Aqua, 7A = Green, 54 = Lime, 3B = 
+Yellow, 1E = Orange)
+</li><li>31 00 00 08 02 SS 00 00 00 = Saturation (SS hex values 0x00 to 
+0x64 : examples: 00 = 0%, 19 = 25%, 32 = 50%, 4B, = 75%, 64 = 100%)
+</li><li>31 00 00 08 03 BN 00 00 00 = BrightNess (BN hex values 0x00 to 
+0x64 : examples: 00 = 0%, 19 = 25%, 32 = 50%, 4B, = 75%, 64 = 100%)
+</li><li>31 00 00 08 05 KV 00 00 00 = Kelvin (KV hex values 0x00 to 0x64
+ : examples: 00 = 2700K (Warm White), 19 = 3650K, 32 = 4600K, 4B, = 
+5550K, 64 = 6500K (Cool White))
+</li><li>31 00 00 08 06 MO 00 00 00 = Mode Number (MO hex values 0x01 to
+ 0x09 : examples: 01 = Mode1, 02 = Mode2, 03 = Mode3 .. 09 = Mode9)
+</li><li>31 00 00 08 04 04 00 00 00 = Mode Speed Decrease--
+</li><li>31 00 00 08 04 03 00 00 00 = Mode Speed Increase++
+</li><li>3D 00 00 08 00 00 00 00 00 = Link (Sync Bulb within 3 seconds of lightbulb socket power on)
+</li><li>3E 00 00 08 00 00 00 00 00 = UnLink (Clear Bulb within 3 seconds of lightbulb socket power on)
+</li><li>
+</li><li>Wifi Bridge iBox LED Lamp {COMMAND}s (Zone Number = 0x01)
+</li><li>31 00 00 00 03 03 00 00 00 = Wifi Bridge Lamp ON
+</li><li>31 00 00 00 03 04 00 00 00 = Wifi Bridge Lamp OFF
+</li><li>31 00 00 00 04 MO 00 00 00 = Mode Number (MO hex values 0x01 to
+ 0x09 : examples: 01 = Mode1, 02 = Mode2, 03 = Mode3 .. 09 = Mode9)
+</li><li>31 00 00 00 03 01 00 00 00 = Mode Speed Decrease--
+</li><li>31 00 00 00 03 02 00 00 00 = Mode Speed Increase++
+</li><li>31 00 00 00 01 BA BA BA BA = Set Color to Blue (BA) (FF = Red, 
+D9 = Lavender, BA = Blue, 85 = Aqua, 7A = Green, 54 = Lime, 3B = Yellow,
+ 1E = Orange)
+</li><li>31 00 00 00 03 05 00 00 00 = Set Color to White (is ignored when Lamp is OFF, it does NOT turn the Lamp ON)
+</li><li>31 00 00 00 02 BN 00 00 00 = BrightNess (BN hex values 0x00 to 
+0x64 : examples: 00 = 0%, 19 = 25%, 32 = 50%, 4B, = 75%, 64 = 100%)
+</li><li>
+</li><li><b>Valid List for {ZONE NUMBER}</b>
+</li><li>0x00 All
+</li><li>0x01 Zone1
+</li><li>0x02 Zone2
+</li><li>0x03 Zone3
+</li><li>0x04 Zone4
+</li><li>
+</li><li><b>Checksum:</b>
+</li><li>RGBW/WW/CW Checksum Byte Calculation is the sum of the 11 bytes
+ before end of the UDP packet. The checksum is then added to the end of 
+the UDP message.
+</li><li>take the 9 bytes of the command, and 1 byte of the zone, and add the 0 = the checksum = (checksum &amp; 0xFF)
+</li><li>e.g. SUM((31 00 00 08 04 01 00 00 00)(command) 01(zone) 00) = 3F(chksum)
+</li><li>
+</li><li><b>EXAMPLES</b>
+</li><li><span class="gbcnst gbcnst02">LimitlessLED</span> Wifi Bridge 
+Light ON   80 00 00 00 11 WB 00 00 SN 00 (31 00 00 00 03 03 00 00 
+00)(cmd) 01(zone) 00 38(chksum)  UDP response: (88 00 00 00 03 00 SN 00)
+</li><li><span class="gbcnst gbcnst02">LimitlessLED</span> Wifi Bridge 
+Light OFF  80 00 00 00 11 WB 00 00 SN 00 (31 00 00 00 03 04 00 00 
+00)(cmd) 01(zone) 00 39(chksum)  UDP response: (88 00 00 00 03 00 SN 00)
+</li><li>
+</li><li>RGBW/WW/CW Zone 1 ON  80 00 00 00 11(length hex) (17 
+01)(WB1WB2) 00 SN 00 (31 00 00 08 04 01 00 00 00)(cmd) 01(zone) 00 
+3F(chksum)  response: (88 00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone1 OFF  80 00 00 00 11(length hex) (17 
+01)(WB1WB2) 00 SN 00 (31 00 00 08 04 02 00 00 00)(cmd) 01(zone) 00 
+40(chksum)  response: (88 00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone 2 ON  80 00 00 00 11(length hex) (17 
+01)(WB1WB2) 00 SN 00 (31 00 00 08 04 01 00 00 00)(cmd) 02(zone) 00 
+40(chksum)  response: (88 00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone2 OFF  80 00 00 00 11(length hex) (17 
+01)(WB1WB2) 00 SN 00 (31 00 00 08 04 02 00 00 00)(cmd) 02(zone) 00 
+41(chksum)  response: (88 00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone 3 ON  80 00 00 00 11(length hex) (17 
+01)(WB1WB2) 00 SN 00 (31 00 00 08 04 01 00 00 00)(cmd) 03(zone) 00 
+41(chksum)  response: (88 00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone3 OFF  80 00 00 00 11(length hex) (17 
+01)(WB1WB2) 00 SN 00 (31 00 00 08 04 02 00 00 00)(cmd) 03(zone) 00 
+42(chksum)  response: (88 00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone 4 ON  80 00 00 00 11(length hex) (17 
+01)(WB1WB2) 00 SN 00 (31 00 00 08 04 01 00 00 00)(cmd) 04(zone) 00 
+42(chksum)  response: (88 00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone4 OFF  80 00 00 00 11(length hex) (17 
+01)(WB1WB2) 00 SN 00 (31 00 00 08 04 02 00 00 00)(cmd) 04(zone) 00 
+43(chksum)  response: (88 00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW ZoneALL ON 80 00 00 00 11(length hex) (17 
+01)(WB1WB2) 00 SN 00 (31 00 00 08 04 01 00 00 00)(cmd) 00(zone) 00 
+3E(chksum)  response: (88 00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW ZoneALLOFF 80 00 00 00 11(length hex) (17 
+01)(WB1WB2) 00 SN 00 (31 00 00 08 04 02 00 00 00)(cmd) 00(zone) 00 
+3F(chksum)  response: (88 00 00 00 03 00 SN 00)
+</li><li>
+</li><li>RGBW/WW/CW Zone 1 Link 80 00 00 00 11 WB1 WB2 00 SN 00 (3D 00 
+00 08 00 00 00 00 00)(link cmd) 01(zone) 00 46(chksum)  response: (88 00
+ 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone 2 Link 80 00 00 00 11 WB1 WB2 00 SN 00 (3D 00 
+00 08 00 00 00 00 00)(link cmd) 02(zone) 00 47(chksum)  response: (88 00
+ 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone 3 Link 80 00 00 00 11 WB1 WB2 00 SN 00 (3D 00 
+00 08 00 00 00 00 00)(link cmd) 03(zone) 00 48(chksum)  response: (88 00
+ 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone 4 Link 80 00 00 00 11 WB1 WB2 00 SN 00 (3D 00 
+00 08 00 00 00 00 00)(link cmd) 04(zone) 00 49(chksum)  response: (88 00
+ 00 00 03 00 SN 00)
+</li><li>
+</li><li>RGBW/WW/CW Zone 1 UnLink 80 00 00 00 11 WB 00 00 SN 00 (3E 00 
+00 08 00 00 00 00 00)(unlink cmd) 01(zone) 00 47(chksum)  response: (88 
+00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone 2 UnLink 80 00 00 00 11 WB 00 00 SN 00 (3E 00 
+00 08 00 00 00 00 00)(unlink cmd) 02(zone) 00 48(chksum)  response: (88 
+00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone 3 UnLink 80 00 00 00 11 WB 00 00 SN 00 (3E 00 
+00 08 00 00 00 00 00)(unlink cmd) 03(zone) 00 49(chksum)  response: (88 
+00 00 00 03 00 SN 00)
+</li><li>RGBW/WW/CW Zone 4 UnLink 80 00 00 00 11 WB 00 00 SN 00 (3E 00 
+00 08 00 00 00 00 00)(unlink cmd) 04(zone) 00 4A(chksum)  response: (88 
+00 00 00 03 00 SN 00)
+</li><li>
+</li><li><b>Keep Alive Messages</b>
+</li><li>KEEP ALIVES (Every 5 seconds) Wifi Bridge 1: D0 00 00 00 02 (WB) 00  (response: D8 00 00 00 07 (AC CF 23 F5 7A D4) 01)
+</li><li>KEEP ALIVES (Every 5 seconds) Wifi Bridge 1: D0 00 00 00 02 1D 00  (response: D8 00 00 00 07 (AC CF 23 F5 7A D4) 01)
+</li><li>KEEP ALIVES (Every 5 seconds) Wifi Bridge 2: D0 00 00 00 02 7C 00  (response: D8 00 00 00 07 (AC CF 23 F5 7D 80) 01)
+</li><li>
+</li><li><b>Click Search for Devices: </b>
+</li><li>UDP.Send (255.255.255.255:5987) Bytes: 10 00 00 00 24 02 ee 3e 
+02 39 38 35 62 31 35 37 62 66 36 66 63 34 33 33 36 38 61 36 33 34 36 37 
+65 61 33 62 31 39 64 30 64
+</li><li>
+</li><li><b>GET ALL WIFI BRIDGE CLOUD KEYS on LAN using UDP</b>
+</li><li>UDP.IP = "255.255.255.255"
+</li><li>UDP.port = 5987
+</li><li>UDP.SEND hex bytes: 10 00 00 00 0A 02 D3 E6 01 (AC CF 23 F5 7A D4)(MAC address)
+</li><li>UDP.Response: 18 00 00 00 40 02 (AC CF 23 F5 7A D4)(mac) 00 20 
+(985b157bf6fc43368a63467ea3b19d0d)(ASCII Tokenkey) 01 00 01 17 63 00 00 
+05 00 09 (xlink_dev)(ASCII) 07 5B CD 15
+</li><li>UDP.SEND hex bytes: 20 00 00 00 16 02 62 3A D5 ED A3 01 AE 08 2D 46 61 41 A7 F6 DC AF D3 E6 00 00 1E
+</li><li>UDP.Response: 28 00 00 00 11(LENGTH) 00 02 (AC CF 23 F5 7A D4)(mac) 69 F0 3C 23 00 01 05 00 00
+</li><li>UDP.SEND hex bytes: D0 00 00 00 02 05(WB1) 00(WB2)
+</li><li>UDP.Response: response: D8 00 00 00 07 (AC CF 23 F5 7A D4) 01)
+</li><li>example2: 10 00 00 00 0A 02 FE E7 01 (AC CF 23 F5 7A D4)(MAC address)
+</li><li>example3: 10 00 00 00 0A 02 FE 51 01 (AC CF 23 F5 7D 80)(MAC address)
+</li><li>
+</li></ul>
+<h2>Section 4. Smart Link Setup Services</h2>
+<li>** Warning only have one wifi bridge powered up at a time when setup
+ using smart link (In case you have more than one in your home) **
+</li><li>Smart-link is all about getting your brand new wifi bridge onto your home wifi router network.
+</li><li>SmartLink saves the user time during the setup phase, from 
+having to switch to the bridge in the wifi settings to set it up. 
+Instead it is done using a sync button underneath the Wifi Bridge v6 and
+ an app.
+</li><li>If you want to build smart-link into your own app.
+</li><li>SMART LINK UDP port 49999  Default Password "8888"
+</li><li>UDP.IP = "10.1.1.255"
+</li><li>UDP.PORT = 49999
+</li><li>UDP.Send Whilst Waiting:  05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05<br>
+<h2>Section 5. Cloud Remote Internet access Services</h2>
+</li><li>If you want to build an app that controls the lights over the internet, more information will be made available here.
+</li><li><a href="http://www.xlink.cn/"><span class="gbcnst gbcnst00">http</span>://<span class="gbcnst gbcnst01">www</span>.xlink.cn/</a>
+</li><li>So that enterprises have the power of things. Cloud-to-cloud 
+platform, easily and securely connected devices, rapid development of 
+Internet of things applications,<br>
+In the Internet of Things data extraction value.<p></p>
+</li><li>Default Cloud Server: Amazon Web Services Cloud ec2-52-63-118-215.ap-southeast-2.compute.amazonaws.<span class="gbcnst gbcnst03">com</span> [52.63.118.215] cm2.xlink.cn
+</li><li>Default Cloud Port: 23778
+</li><li>Cloud Server Login TCP.Send: 10 00 00 00 1A 02 4B 4B 59 DB 00 10 32 32 30 66 61 32 61 66 66 65 36 63 61 32 30 30 00 00 3C<br>
+Cloud TCP.Read Login Response: 18 00 00 00 02 00 00<p></p>
+</li><li>Cloud Keep Alive: TCP.Send: D0 00 00 00 00
+</li><li>Cloud Keep Alive: TCP.Read: D8 00 00 00 00
+</li><li>Cloud TCP sent: A0 00 00 00 07 69 F0 3D F3 00 0B 00
+</li><li>Cloud response: A8 00 00 00 13 69 F0 3D F3 00 0B 00 07 00 09 x l i n k _ d e v
+</li><li>Cloud TCP sent:
+</li><li>Cloud response: 6{"device_id":1777352179,"type":"offline","operator":0}
+
+x                                    </li></div>
+                
+                             
+            
+            <div class="post-edit"></div> 
+            </div>
+            
+            <div id="comments">
+<div class="sixteen columns">
+
+
+
+
+
+
+</div>
+</div>            
+	 
+		
+
+	</div>
+
+
+
+			
+			<div class="container">
+		
+				
+<div class="bottom-gradient add-top add-bottom">
+	
+	
+	
+</div>
+
+<div class="one-third column ">
+<p><span class="gbcnst gbcnst02">LimitlessLED</span> © 2015  All prices are USD (excl. tax).<br>
+<br>
+</p></div>
+<div class="one-third column ">
+<p style="text-align: center;">
+</p></div>
+<div class="one-third column ">
+<p style="text-align: right;"><a href="#" class="button  animate">Back to top</a>
+</p></div>
+x
+			</div>
+		
+	
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
