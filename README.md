@@ -11,7 +11,9 @@ This archive contains all the important codes needed to develop applications for
 # Jan 10 2018 
 This archive was retrieved from GigaBlast
 https://www.gigablast.com/get?q=http%3A%2F%2Fwww.limitlessled.com%2Fdev%2F&qlang=en&c=main&d=36368652401&cnsp=0 
-This archive is more recent but is partially incomplete. Therefore it's encouraged to go here for recent V6 bulbs but the other archive for every little detail.
+This archive is more recent but is partially incomplete. It includes the sections: "Wifi bridge v6 Apps that support RGBW and RGBW/WW/CW/CCT bulbs" and "LimitlessLED Wifi Bridge v6.0 Working Program code" 
+
+Therefore it's encouraged to go here for recent V6 bulbs but the other archive for every little detail.
 
 # Aug 7 2014
 A really old archive from: http://archive.is/www.limitlessled.com 
