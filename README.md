@@ -4,7 +4,7 @@ http://limitlessled.com/dev is now down, but has been continuously linked and us
 Finding an archive of the page is pretty difficult, and this repo aims to save people a lot of time and act as a permenant backup of the page by containing various archives. 
 
 # July 6 2017
-This archive, I forgot where it was retrieved from...
+This archive is from archive.is/agYyJ
 
 This archive contains all the important codes needed to develop applications for milight bridges. It should be the first one you read. 
 
