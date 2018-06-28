@@ -1,0 +1,54 @@
+<strong>WARM WHITE/COOL WHITE LimitlessLED Smartbulb WIFI TCP/IP UDP COMMANDS</strong>
+
+
+
+
+	Hexidecimal (byte)	Decimal (integer)
+
+    WHITE LED ALL OFF	0x39	57
+
+    WHITE LED ALL ON	0x35	53
+
+    BRIGHTNESS UP		0x3C	60
+
+    BRIGHTNESS DOWN		0x34	52
+
+    WARM WHITE INCREASE	0x3E	62
+
+    COOL WHITE INCREASE	0x3F	63
+
+    GROUP 1 ALL ON		0x38	56
+
+    GROUP 1 ALL OFF		0x3B	59
+
+    GROUP 2 ALL ON		0x3D	61
+
+    GROUP 2 ALL OFF		0x33	51
+
+    GROUP 3 ALL ON		0x37	55
+
+    GROUP 3 ALL OFF		0x3A	58
+
+    GROUP 4 ALL ON		0x32	50
+
+    GROUP 4 ALL OFF		0x36	54
+
+    NIGHT MODE ALL		        0x39	100ms followed by:	0xB9
+
+    NIGHT SAVER MODE GROUP 1	0x3B	100ms followed by:	0xBB
+
+    NIGHT SAVER MODE GROUP 2	0x33	100ms followed by:	0xB3
+
+    NIGHT SAVER MODE GROUP 3	0x3A	100ms followed by:	0xBA
+
+    NIGHT SAVER MODE GROUP 4	0x36	100ms followed by:	0xB6
+
+    FULL BRIGHTNESS ALL		0x35	100ms followed by:	0xB5
+
+    FULL BRIGHTNESS GROUP 1		0x38	100ms followed by:	0xB8
+
+    FULL BRIGHTNESS GROUP 2		0x3D	100ms followed by:	0xBD
+
+    FULL BRIGHTNESS GROUP 3		0x37	100ms followed by:	0xB7
+
+    FULL BRIGHTNESS GROUP 4		0x32	100ms followed by:	0xB2
